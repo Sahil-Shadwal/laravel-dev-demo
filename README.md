@@ -7,6 +7,7 @@
 -   php artisan migrate:fresh
 -   php artisan migrate
 -   php artisan make:migration
+-   php artisan tinker
 
 ## Notes
 

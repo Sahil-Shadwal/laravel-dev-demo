@@ -7,12 +7,11 @@ use App\Models\Job;
 
 
 Route::get('/', function () {
-    $jobs = Job::all();
 
-    dd($jobs);
-    // return view('home');
+    return view('home');
 });
 Route::get('/jobs', function () {
+
     return view('jobs', [
         'jobs' => Job::all()
     ]);
