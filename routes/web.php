@@ -6,5 +6,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/about', function () {
-    return ['foo' => 'bar'];
+    return view('about');
+});
+Route::get('/contact', function () {
+    return view('contact');
 });

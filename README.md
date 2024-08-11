@@ -8,3 +8,4 @@
 ## Notes
 
 -   blade is laravel templating engine
+-   view is a representation of the user interface that is typically rendered as HTML
