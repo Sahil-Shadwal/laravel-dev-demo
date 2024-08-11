@@ -14,7 +14,8 @@
         <a href="/contact">Contact</a>
     </nav>
 
-    <?php echo $slot ?>
+    <!-- <?php echo $slot ?> -->
+    {{$slot}} // blade helper which directly translates to php echo and whatever the name of variable
 </body>
 
 </html>
