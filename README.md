@@ -4,13 +4,17 @@
 
 -   `laravel new example`
 -   laravel-dev-demo.test (to check the live website , if you are not using herd run php artisan serve)
+-   php artisan migrate:fresh
+-   php artisan migrate
+-   php artisan make:migration
 
 ## Notes
 
 -   blade is laravel templating engine
 -   view is a representation of the user interface that is typically rendered as HTML\
 -   {{$slot}} // blade helper which directly translates to php echo and whatever the name of variable
--   namespaces are used to organize and group related classes, interfaces, and traits. Example: App\Models\Job
+-   namespaces are used to organize and group related classes, interfaces, and traits. Example: `App\Models\Job`
+-   Data encapsulation is a fundamental concept in object-oriented programming (OOP) that involves bundling the data (attributes) and the methods (functions) that operate on the data into a single unit, typically a class.
 
 ## Imp Points
 
