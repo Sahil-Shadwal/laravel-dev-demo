@@ -2,6 +2,6 @@
     <x-slot:heading>
         Contact Page
     </x-slot:heading>
-    <h1> Welcome to contact!</h1>
+    <h1> Welcome to Contact!</h1>
 
 </x-layout>
